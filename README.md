@@ -4,7 +4,7 @@ Your all-in-one daily planner and productivity companion — accessible on any d
 
 
 ## Full App access 
-https://dailyplanner-lime.vercel.app/
+https://ws-daily-planner.vercel.app/
 
 ## Features
 
