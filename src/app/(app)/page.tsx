@@ -2,6 +2,8 @@ import { TodaySchedule } from "@/components/dashboard/today-schedule"
 import { UpcomingTasks } from "@/components/dashboard/upcoming-tasks"
 import { HabitOverview } from "@/components/dashboard/habit-overview"
 import { QuickNote } from "@/components/dashboard/quick-note"
+import { GoalsOverview } from "@/components/dashboard/goals-overview"
+import { NotesOverview } from "@/components/dashboard/notes-overview"
 
 export default function DashboardPage() {
   return (
@@ -13,8 +15,10 @@ export default function DashboardPage() {
           <TodaySchedule />
           <UpcomingTasks />
         </div>
-        <div className="space-y-6">
+        <div className="space-y-4">
           <HabitOverview />
+          <GoalsOverview />
+          <NotesOverview />
           <QuickNote />
         </div>
       </div>
